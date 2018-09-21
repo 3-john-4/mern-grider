@@ -1,0 +1,13 @@
+{
+  "printWidth": 80,
+  "parser": "babylon",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": [".prettierrc.json", "package.json"],
+      "options": { "parser": "json" }
+    }
+  ]
+}
